@@ -8,5 +8,6 @@ if pgrep -x "redshift" > /dev/null
 then
 killall redshift;
 else
-gtk-redshift;
+(gtk-redshift &);
 fi
+
